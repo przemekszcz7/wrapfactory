@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Permanent+Marker&family=Oswald:wght@500;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-graffiti: 'Sedgwick Ave Display', 'Permanent Marker', cursive;
+  --font-factory: 'Oswald', sans-serif;
+}
+
+/* Custom styles for high-contrast brutalist design */
+::selection {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  color: transparent;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 1.5px #ffffff;
+  color: transparent;
+}
+
+.text-stroke-black {
+  -webkit-text-stroke: 1.5px #000000;
+  color: transparent;
+}

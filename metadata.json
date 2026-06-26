@@ -1,0 +1,6 @@
+{
+  "name": "Drukarnia WrapFactory",
+  "description": "Profesjonalny wydruk wielkoformatowy, reklamy na pojazdach, naklejki specjalistyczne, odzież reklamowa i gadżety z Twoim logo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
